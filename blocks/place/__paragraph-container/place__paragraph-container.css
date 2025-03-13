@@ -1,0 +1,12 @@
+.place__paragraph-container {
+    margin: 0;
+    padding: 0;
+    align-self: flex-start;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__paragraph-container {
+      max-width: 288px;
+      padding: 0 16px;
+    }
+  }
